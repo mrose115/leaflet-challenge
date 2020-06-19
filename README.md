@@ -2,7 +2,7 @@
 
 This project involved pulling in data from the USGS GeoJSON Feed and then using the data to map plots of the earthquakes using Leaflet. 
 
-The data markers relfect the magnitude of the earthquake in size and color and inlcude popups with additional information when clicked. The legend in the lower right hand corner provides the size scale. The map can be viewed in two layers, a light map and a dark map.
+The data markers relfect the magnitude of the earthquake in size and color and include pop-ups with additional information when clicked. The legend in the lower right hand corner provides the size scale. The map can be viewed in two layers, a light map and a dark map.
 
 In order to view the map in a web browser, python -m http.server needs to be run in the same file as the index.html file. After running this script, type "localhost:8000" in a web browser. The maps below are what should come up in the web browser.
 
@@ -11,3 +11,6 @@ In order to view the map in a web browser, python -m http.server needs to be run
 <img width="1124" alt="dark mode" src="https://user-images.githubusercontent.com/57542250/85173970-43da3a80-b229-11ea-89f2-805747fb0d9c.PNG">
 
 
+### Pop-Up with Additional Information
+
+<img width="805" alt="data marker" src="https://user-images.githubusercontent.com/57542250/85174420-32ddf900-b22a-11ea-8efc-c326180a7e15.PNG">
